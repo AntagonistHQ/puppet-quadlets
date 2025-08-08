@@ -10,6 +10,7 @@ describe 'Quadlets::Quadlet_name' do
       'empty.volume',
       'masive.pod',
       'special.kube',
+      'internal.image',
     ].each do |unit|
       it { is_expected.to allow_value(unit) }
     end
